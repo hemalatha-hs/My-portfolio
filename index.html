@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style/styles.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Hemalatha H S</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a tech-savvy individual, always eager to take on new challenges, and enjoy working with diverse technologies to create innovative solutions.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/hemalatha-h-s"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hemalatha-hs"><i class="fa-brands fa-github"></i></a>
+                
+                
+            </div>
+            <a href="https://drive.google.com/file/d/1a4zyhluhCwOjcc4Z52RtSTD3Ksl30pQJ/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/profile_photo.jpg" alt="" width="100px" height="300px">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/pic4.jpg" alt="" width="50px" height="500px">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Computer Science Engineer</h3>
+            <p>I am a dedicated software developer with hands-on experience in web and application development. My expertise includes working with technologies such as JavaScript, React js, and Python, allowing me to create dynamic and functional applications. I am always enthusiastic about learning and exploring new technologies to improve my skills and stay updated with industry trends.
+
+                I am also learning Japanese to expand my language abilities and connect better with different cultures, which I believe will open up new opportunities in the future.</p>
+            <a href="#contact" class="btn">Contact me</a>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <i class="fa-solid fa-school"></i>
+                <h3>SSLC</h3>
+                <p>Newton Grammar School, Chickballapur</p>
+            </div>
+            <div class="education-box">
+                <i class="fa-solid fa-school"></i>
+                <h3>Pre-University</h3>
+                <p>Newton Integrated PU College, Chickballapur</p>
+            </div>
+            <div class="education-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>BE</h3>
+                <p>Sahyadri College of Engineering and Mangaement, Mangalore</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>projects</span></h2>
+        <div class="portfolio-container" >
+            <div class="portfolio-box">
+                <img src="img/project1.jpg" alt="" id="pro">
+                <div class="portfolio-layer">
+                <h4>Music management System</h4>
+                <p>The Music Management System is an intuitive platform with a user-friendly interface that supports 
+                    CRUD operations for artists, albums, songs, and playlists, allowing efficient organization of musical content.</p>
+                    
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project2.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>AI in Education</h4>
+                <p>EduAI is a Python-based chatbot that enhances learning by providing resources and information in text and speech formats, 
+                    making programming education more interactive and accessible.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project3.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Shopping Cart</h4>
+                <p>This web application, built with HTML, CSS, and JavaScript, allows users to add and remove products from their cart, view item prices, 
+                    and see the total amount, with automatic updates as items are managed.</p>   
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/project4.png" alt="" id="pro">
+                <div class="portfolio-layer">
+                <h4>Airport Parking Management</h4>
+                <p>A full-stack project for airport parking management using React, Node, MongoDB, and Express.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project5.jpg" alt="" id="pro">
+                <div class="portfolio-layer">
+                <h4>AyurChain</h4>
+                <p>A solution for PCOD and PCOS using decision trees for diagnosis, neural networks for treatment, Ayurvedic support, and blockchain for data security.</p>
+                </div>
+            </div>
+
+            
+            
+
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c2a97f7a-b9d5-4910-9214-885a586728a8">
+
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full name">
+                <input type="email" name="emailadress" placeholder="Email adress">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="numbet" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @hema | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
