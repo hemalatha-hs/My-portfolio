@@ -1,147 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Style/styles.css">
-    <title>My portfolio</title>
+<title>Hemalatha | Data Engineer</title>
+
+<link rel="stylesheet" href="Style/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <!-- <i class="fa-solid fa-bars" id="menu-icon"></i> -->
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi, I'm</h3>
-            <h1>Hemalatha H S</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>tech-savvy individual, always eager to take on new challenges, and enjoy working with diverse technologies to create innovative solutions.</p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/hemalatha-h-s"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/hemalatha-hs"><i class="fa-brands fa-github"></i></a>
-                
-                
-            </div>
-            <a href="https://drive.google.com/file/d/1vJMvqzvNa18COUEPaFCYHnJZjhmoXRej/view?usp=sharing" class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
-            <img src="img/profile_photo.jpg" alt="" width="100px" height="300px">
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/pic4.jpg" alt="" width="50px" height="500px">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Computer Science Engineer</h3>
-            <p>I am a dedicated software developer with hands-on experience in web and application development. My expertise includes working with technologies such as JavaScript, React js, and Python, allowing me to create dynamic and functional applications. I am always enthusiastic about learning and exploring new technologies to improve my skills and stay updated with industry trends.
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">Hemalatha</h2>
 
-                I am also learning Japanese to expand my language abilities and connect better with different cultures, which I believe will open up new opportunities in the future.</p>
-            <a href="#contact" class="btn">Contact me</a>
-        </div>
-    </section>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <section class="education" id="education">
-        <h2 class="heading">My <span>Education</span></h2>
 
-        <div class="education-container">
-            <div class="education-box">
-                <i class="fa-solid fa-school"></i>
-                <h3>SSLC</h3>
-                <p>Newton Grammar School, Chickballapur</p>
-            </div>
-            <div class="education-box">
-                <i class="fa-solid fa-school"></i>
-                <h3>Pre-University</h3>
-                <p>Newton Integrated PU College, Chickballapur</p>
-            </div>
-            <div class="education-box">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>BE</h3>
-                <p>Sahyadri College of Engineering and Mangaement, Mangalore</p>
-            </div>
-        </div>
-    </section>
+<!-- <section id="home" class="hero">
 
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>projects</span></h2>
-        <div class="portfolio-container" >
+<div class="hero-container">
 
-            <div class="portfolio-box">
-                <img src="img/project5.jpg" alt="" id="pro">
-                <div class="portfolio-layer">
-                <h4>AyurChain</h4>
-                <p>Ayurchain is a web app for PCOS detection and Ayurvedic medicine recommendations, 
-                    with blockchain ensuring secure authentication.</p>
+<h1>
+Hi, I'm <span>Hemalatha H S</span>
+</h1>
 
-                </div>
-            </div>
+<h2>Data Engineer</h2>
 
-            <div class="portfolio-box">
-                <img src="img/project1.jpg" alt="" id="pro">
-                <div class="portfolio-layer">
-                <h4>Music management System</h4>
-                <p>The Music Management System is an intuitive platform with a user-friendly interface that supports 
-                    CRUD operations for artists, albums, songs, and playlists, allowing efficient organization of musical content.</p>
-                    
-                </div>
-            </div>
+<p>
+I design and build scalable data pipelines, ETL workflows, and data warehouses that transform raw data into actionable insights.
+</p>
 
-            <div class="portfolio-box">
-                <img src="img/project2.jpg" alt="">
-                <div class="portfolio-layer">
-                <h4>AI in Education</h4>
-                <p>EduAI is a Python-based chatbot that enhances learning by providing resources and information in text and speech formats, 
-                    making programming education more interactive and accessible.</p>
-                </div>
-            </div>
+<div class="hero-buttons">
+<a href="#" class="btn-primary">Download Resume</a>
+<a href="#projects" class="btn-secondary">View Projects</a>
+</div>
 
-            <div class="portfolio-box">
-                <img src="img/project3.jpg" alt="">
-                <div class="portfolio-layer">
-                <h4>Shopping Cart</h4>
-                <p>This web application, built with HTML, CSS, and JavaScript, allows users to add and remove products from their cart, view item prices, 
-                    and see the total amount, with automatic updates as items are managed.</p>   
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/project4.png" alt="" id="pro">
-                <div class="portfolio-layer">
-                <h4>Airport Parking Management</h4>
-                <p>A full-stack project for airport parking management using React, Node, MongoDB, and Express.</p>
-                </div>
-            </div>
+</div>
 
-            <!-- <div class="portfolio-box">
-                <img src="img/project5.jpg" alt="" id="pro">
-                <div class="portfolio-layer">
-                <h4>AyurChain</h4>
-                <p>Ayurchain is a web app for PCOS detection and Ayurvedic medicine recommendations, 
-                    with blockchain ensuring secure authentication.</p>
-
-                </div>
-            </div> -->
-
-            
-            
-
-        </div>
-    </section>
+</section> -->
+<!-- <section id="home" class="hero">
+  <div class="hero-container">
     
-    <section class="contact" id="contact">
+    <h1>
+      Hi, I'm <span>Hemalatha H S</span>
+    </h1>
+
+    <h2>Data Engineer</h2>
+
+    <p>
+      I build scalable data pipelines and transform raw data into meaningful insights.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="https://github.com/hemalatha-hs" target="_blank" class="btn">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/hemalatha-h-s" target="_blank" class="btn btn-outline">
+        <i class="fab fa-linkedin"></i></a>
+    </div>
+
+  </div>
+</section> -->
+
+<section id="home" class="hero">
+  <div class="hero-container">
+
+    <h1 class="fade">
+      Hi, I'm <span>Hemalatha H S</span>
+    </h1>
+
+    <h2 class="fade delay-1">
+      <span id="typing"></span>
+    </h2>
+
+    <p class="fade delay-2">
+      I design and build scalable data pipelines and transform raw data into meaningful insights.
+    </p>
+
+    <div class="hero-buttons fade delay-3">
+      <a href="https://github.com/hemalatha-hs" target="_blank" class="btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/hemalatha-h-s" target="_blank" class="btn btn-outline">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="#projects" class="btn btn-secondary">
+        View Work
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-grid">
+
+<div class="about-card">
+<h3>Who I Am</h3>
+<p>
+I am a Data Engineer passionate about building scalable data pipelines,
+data warehouses, and analytics solutions. I enjoy transforming raw data
+into meaningful insights that solve real-world problems.
+</p>
+</div>
+
+<div class="about-card">
+<h3>Education</h3>
+<p>
+Bachelor of Engineering (B.E)<br>
+Specialized in Computer Science / Related Field<br>
+Focused on data systems, programming, and software development.
+</p>
+</div>
+
+<div class="about-card">
+<h3>Core Expertise</h3>
+<p>
+• Data Pipelines & ETL Development<br>
+• Data Warehousing & Modeling<br>
+• Python, SQL, Apache Spark<br>
+• Analytics & Dashboarding
+</p>
+</div>
+
+<div class="about-card">
+<h3>Career Goal</h3>
+<p>
+To grow as a Data Engineer by building impactful data-driven solutions,
+working on large-scale systems, and contributing to innovative
+technology-driven organizations.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill">SQL</div>
+<div class="skill">Python</div>
+<div class="skill">PySpark</div>
+<!-- <div class="skill">ETL Pipelines</div> -->
+<!-- <div class="skill">Data Warehousing</div> -->
+ <div class="skill">Power BI</div>
+<div class="skill">Snowflake</div>
+<div class="skill">Databricks</div>
+<div class="skill">MongoDB</div>
+<div class="skill">Microsoft Fabric</div>
+<div class="skill">Git</div>
+<div class="skill">Github</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project">
+<h3>Ticket Booking Data Engineering Pipeline</h3>
+<!-- <p>
+Designed and developed an end-to-end data engineering solution simulating a ticket booking platform. Built ETL pipelines using Python, Pandas, and Apache Spark (PySpark) to process daily transaction data from booking, payment, ticket, and cancellation systems. Performed data validation and quality checks including null handling, duplicate removal, and datatype validation. Designed a Star Schema with fact and dimension tables such as Customer, Event, Show, Venue, and Booking, and loaded processed data into a data warehouse. Implemented logging, error handling, and monitoring to ensure reliable data processing. Built Power BI dashboards to analyze booking trends, revenue, and cancellations.
+</p> -->
+<p>
+Built an end-to-end data pipeline for a ticket booking system. Processed booking, payment, and cancellation data using Python and PySpark. Applied data validation and designed a Star Schema for analytics. Developed Power BI dashboards to track revenue and booking trends.
+</p>
+<div class="tech">
+<span>Python</span>
+<span>PySpark</span>
+<span>Microsoft Fabric</span>
+<span>SQL</span>
+<span>ETL</span>
+<span>Data Warehouse</span>
+<span>Power BI</span>
+
+</div>
+</div>
+
+<div class="project">
+<h3>Spotify Listening Data Analysis Dashboard</h3>
+<!-- <p>
+Analyzed Spotify streaming data to understand user listening behavior across albums, artists, and tracks. Built interactive dashboards using Power BI to visualize listening trends and identify popular content. Developed KPI metrics such as MTD, QTD, and YTD, and performed Year-over-Year analysis. Highlighted Top 5 albums, artists, and tracks, and analyzed weekday vs weekend listening patterns. Implemented dynamic filters like platform, shuffle status, and skip behavior for deeper insights.
+</p> -->
+<!-- <p>
+Analyzed Spotify listening data to identify user behavior and trends. Built Power BI dashboards with KPIs (MTD, QTD, YTD) and YoY analysis. Highlighted top artists and tracks with interactive filters.
+</p> -->
+<p>
+Analyzed Spotify streaming data and built Power BI dashboards to visualize listening trends. Developed KPI metrics (MTD, QTD, YTD) and identified top albums, artists, and tracks. Added filters for platform, shuffle, and skip status for dynamic insights.
+</p>
+<div class="tech">
+<span>Power BI</span>
+<span>SQL</span>
+<span>Data Analysis</span>
+<span>Dashboarding</span>
+</div>
+</div>
+
+<div class="project">
+<h3>NCPDP Pharmacy Claims Data Pipeline</h3>
+<!-- <p>
+Designed and implemented an end-to-end data pipeline for pharmacy claim transactions using SQL Server and SSIS. Built a normalized OLTP schema with tables such as Patient, Pharmacy, Prescriber, Drug, Payer, and Claim. Developed stored procedures to extract daily claim and payer response data into structured files. Created ETL workflows to validate, transform, and load data into a star-schema data warehouse. Implemented data quality checks, logging, error handling, and automated auditing. Built SSRS reports to analyze claim performance, denial rates, and drug utilization.
+</p> -->
+<p>
+Developed a pharmacy claims data pipeline using SQL Server and SSIS. Built ETL workflows, designed a data warehouse, and implemented data validation and logging. Created SSRS reports for claim analysis and insights.
+</p>
+<div class="tech">
+<span>SQL Server</span>
+<span>SSIS</span>
+<span>ETL</span>
+<span>Data Warehouse</span>
+<span>SSRS</span>
+</div>
+</div>
+
+<div class="project">
+<h3>AyurChain</h3>
+<!-- <p>
+Developed a web-based system for PCOS detection and Ayurvedic treatment recommendations. Implemented machine learning models such as decision trees and neural networks for prediction. Integrated blockchain technology to ensure secure authentication and data integrity.
+</p> -->
+<p>
+Built a web-based system for PCOS detection and Ayurvedic medicine recommendations. Used machine learning models and integrated blockchain for secure data handling.
+</p>
+<div class="tech">
+<span>Python</span>
+<span>Machine Learning</span>
+<span>Blockchain</span>
+</div>
+</div>
+
+<div class="project">
+<h3>Music Management System</h3>
+<!-- <p>
+Built a full-stack application to manage artists, albums, songs, and playlists with complete CRUD functionality. Designed an efficient backend and user-friendly interface for seamless data management and retrieval.
+</p> -->
+<p>
+Developed a full-stack music management system with CRUD operations for artists, albums, and playlists. Designed for efficient data organization and retrieval.
+</p>
+<div class="tech">
+<span>React.js</span>
+<span>Node.js</span>
+<span>SQL</span>
+<span>Full Stack</span>
+</div>
+</div>
+
+<div class="project">
+<h3>Shopping Cart System</h3>
+<!-- <p>
+Developed a dynamic shopping cart application using HTML, CSS, and JavaScript. Implemented features to add and remove products, display pricing details, and calculate total cost with real-time updates.
+</p> -->
+<p>
+Created a dynamic shopping cart application with real-time updates. Users can add/remove items and view total cost instantly.
+</p>
+<div class="tech">
+<span>JavaScript</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>Frontend</span>
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="c2a97f7a-b9d5-4910-9214-885a586728a8">
@@ -161,19 +314,36 @@
         </form>
     </section>
 
-    <section class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2024 by @hema | All Rights Reserved.</p>
-        </div>
+    <footer class="footer">
 
-        <div class="footer-iconTop">
-            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
-        </div>
-    </section>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+  <div class="footer-content">
+    
+    <!-- <h3>Hemalatha H S</h3> -->
+    <!-- <p>Data Engineer </p> -->
 
+    <div class="socials">
+      <a href="https://github.com/hemalatha-hs" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
 
-    <script src="JS/script.js"></script>
+      <a href="https://www.linkedin.com/in/hemalatha-h-s" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="hemalathahs2003@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Hemalatha H S | All Rights Reserved</p>
+  </div>
+
+</footer>
+
+<script src="JS/script.js"></script>
+
 </body>
 </html>
