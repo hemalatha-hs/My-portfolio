@@ -94,7 +94,8 @@ function typeEffect() {
       currentRole.substring(0, j--);
   }
 
-  if (!isDeleting && j === currentRole.length) {
+  // if (!isDeleting && j === currentRole.length) {
+  if (!isDeleting && j > currentRole.length) {
     isDeleting = true;
     setTimeout(typeEffect, 1200);
     return;

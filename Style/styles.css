@@ -199,7 +199,7 @@ section{
 }
 
 /* ================= CONTACT ================= */
-.contact{
+/* .contact{
   text-align:center;
 }
 
@@ -242,6 +242,102 @@ section{
 
 .contact .btn{
   margin-top:15px;
+} */
+
+/* ================= CONTACT SECTION ================= */
+
+.contact {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  width: 100%;
+  max-width: 750px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+/* INPUT ROW */
+.input-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* INPUTS */
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #2a2f45;
+  color: white;
+  font-size: 14px;
+}
+
+/* TEXTAREA */
+.contact textarea {
+  resize: none;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.contact .btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  /* display: inline-flex; */
+  display: flex;
+  margin: 20px auto 0 auto;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.contact .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  .contact form {
+    padding: 20px;
+  }
+
+  .input-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact textarea {
+    height: 150px;
+  }
+
+  .contact .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* ================= FOOTER ================= */
@@ -268,6 +364,7 @@ section{
   background:rgba(255,255,255,0.08);
   color:#38bdf8;
   transition:0.3s;
+  text-decoration: none;
 }
 
 .socials a:hover{
@@ -315,9 +412,10 @@ section{
 /* ================= SKILLS ================= */
 .skills-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  /* grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap:15px;
-  max-width:800px;
+  max-width:900px;
   margin:auto;
 }
 
