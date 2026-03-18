@@ -109,3 +109,19 @@ function typeEffect() {
 }
 
 typeEffect();
+
+  const menuIcon = document.getElementById("menu-icon");
+  const navbar = document.querySelector(".navbar");
+
+  menuIcon.onclick = () => {
+    navbar.classList.toggle("active");
+  };
+
+
+  const navLinks = document.querySelectorAll(".navbar a");
+
+  navLinks.forEach(link => {
+    link.onclick = () => {
+      navbar.classList.remove("active");
+    };
+  });
