@@ -19,7 +19,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (!event.target.closest('.header')) closeMenu();
 });
-window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
 document.querySelector('#year').textContent = new Date().getFullYear();
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
